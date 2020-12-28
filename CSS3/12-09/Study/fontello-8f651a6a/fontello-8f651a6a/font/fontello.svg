@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="camera-alt" unicode="&#xe800;" d="M518 386q0 8-5 13t-13 5q-37 0-63-27t-26-63q0-7 5-12t13-6 12 6 5 12q0 23 16 38t38 16q8 0 13 5t5 13z m125-73q0-59-42-101t-101-42-101 42-42 101 42 101 101 42 101-42 42-101z m-572-320h858v71h-858v-71z m643 320q0 89-62 152t-152 63-151-63-63-152 63-151 151-63 152 63 62 151z m-571 358h214v72h-214v-72z m-72-107h858v143h-462l-36-71h-360v-72z m929 143v-714q0-30-21-51t-50-21h-858q-29 0-50 21t-21 51v714q0 30 21 51t50 21h858q29 0 50-21t21-51z" horiz-adv-x="1000" />
+
+<glyph glyph-name="videocam" unicode="&#xe801;" d="M1000 654v-608q0-23-22-32-7-3-14-3-15 0-25 10l-225 225v-92q0-67-47-114t-113-47h-393q-67 0-114 47t-47 114v392q0 67 47 114t114 47h393q66 0 113-47t47-114v-92l225 225q10 10 25 10 7 0 14-2 22-10 22-33z" horiz-adv-x="1000" />
+
+<glyph glyph-name="picture" unicode="&#xe802;" d="M357 529q0-45-31-76t-76-32-76 32-31 76 31 76 76 31 76-31 31-76z m572-215v-250h-786v107l178 179 90-89 285 285z m53 393h-893q-7 0-12-5t-6-13v-678q0-7 6-13t12-5h893q7 0 13 5t5 13v678q0 8-5 13t-13 5z m89-18v-678q0-37-26-63t-63-27h-893q-36 0-63 27t-26 63v678q0 37 26 63t63 27h893q37 0 63-27t26-63z" horiz-adv-x="1071.4" />
+
+<glyph glyph-name="shopping-cart" unicode="&#xe803;" d="M563-25c-12 0-21 9-21 21s9 21 21 21 20-10 20-21-9-21-20-21m0 83c-35 0-63-28-63-62s28-63 63-63 62 28 62 63-28 62-62 62m-250-83c-12 0-21 9-21 21s9 21 21 21 20-10 20-21-9-21-20-21m0 83c-35 0-63-28-63-62s28-63 63-63 62 28 62 63-28 62-62 62m687 667h-123l-152-625h-555l-170 542h813l31 125h156v-42z m-941-125l142-458h491l111 458h-744z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

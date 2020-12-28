@@ -1,0 +1,25 @@
+/* ul a 기본 문자색 : #333, mouseover: 하늘색으로 변경, active: greed로 변경 */
+ul>li>a {
+    color: #333;
+}
+
+ul>li>a:hover {
+    color: skyblue;
+}
+
+ul>li>a:active {
+    color: green;
+}
+/* ol a 기본 문자색 : orange + 밑줄 제거, mouseover: 밑줄 생성, active: yellowgreen 으로변경 */
+ol li a {
+    color: orange;
+    text-decoration: none;
+}
+
+ol a:hover {
+    text-decoration: underline;
+}
+
+ol a:active {
+    color: yellowgreen;
+}

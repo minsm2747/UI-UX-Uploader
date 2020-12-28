@@ -1,0 +1,13 @@
+p {
+    background: pink;
+}
+
+/* dis class의 h1 제목을 글자와 영역 모두 영구 삭제 */
+.dis {
+    display: none;
+}
+
+/* vis class의 h1 제목 중 글자만 영역만 보존 한 채 글자만 삭제 */
+.vis {
+    visibility: hidden;
+}

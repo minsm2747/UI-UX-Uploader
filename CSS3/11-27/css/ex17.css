@@ -1,0 +1,38 @@
+div {
+    width: 266px;
+    height: 266px;
+    background-image: url(../img/1625983262.jpg),
+        url(../img/1628679184.jpg);
+}
+
+.box2 {
+    background-blend-mode: color;
+}
+
+.box3 {
+    background-blend-mode: darken;
+}
+
+.box4 {
+    background-blend-mode: multiply;
+}
+
+.box5 {
+    background-blend-mode: lighten;
+}
+
+.box6 {
+    background-blend-mode: screen;
+}
+
+.box7 {
+    background-blend-mode: overlay;
+}
+
+.box8 {
+    background-blend-mode: luminosity;
+}
+
+.box9 {
+    background-blend-mode: saturation;
+}

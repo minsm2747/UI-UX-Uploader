@@ -1,0 +1,51 @@
+*,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+}
+
+li { list-style: none;}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-size: 12px;
+    font-family: "Nanum Barun Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #333;
+}
+
+.blind {
+    position: absolute;
+    top: -9999px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+hr {
+    display: none;
+}
+
+.skip a {
+     
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+address, i ,em {
+    font-style: normal;
+}

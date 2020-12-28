@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    background: url(../img/bul_tit.jpg) no-repeat;
+    line-height: 60px;
+    font-size: 35px;
+    /* 영문 첫 글자를 대문자로 변경 */
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+
+footer {
+    background: #ba000c;
+}
+
+footer>.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footMenu>li>a {
+    color: white;
+    /* 밑줄 제거 */
+    text-decoration: none;
+    background: url(../img/bg_footer_bar01.gif) no-repeat 100% center;
+    padding-right: 10px;
+}
+
+.footMenu>.last>a {
+    background: none;
+    padding-right: 0;
+}
+
+.store>li>a {
+    display: block;
+    width: 300px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.store>.storeSearch>a {
+    background-color: #ffce32;
+    background-image: url(../img/icon_map.png);
+    background-position: 90px center;
+    color: #292929;
+    text-indent: 120px;
+    border-radius: 30px 0 0 0;
+}
+
+.store>.franchise>a {
+    background-color: #009223;
+    background-image: url(../img/icon_franchise.jpg);
+    text-align: center;
+}

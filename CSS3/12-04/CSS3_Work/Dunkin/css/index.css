@@ -1,0 +1,298 @@
+.center {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 255, 0.3);
+}
+
+.headTop > .center {
+    position: relative;
+}
+
+.headBottom > .center {
+    position: relative;
+}
+
+
+/* header */
+#header {
+    border-top: 3px solid #2c1810;
+    border-bottom: 1px solid #483325;
+}
+
+/* headTop */
+.headTop {
+    background: #f8faf0;
+    border: 1px solid #e5e2e0;
+}
+
+.logo {
+    text-align: center;
+    padding: 37px 0 43px;
+}
+
+.leftGnb {
+    position: absolute;
+    top: 50px;
+}
+
+.leftGnb > li {
+    float: left;
+    margin-right: 25px;
+    font-size: 10px;
+}
+
+.rightGnb {
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+.rightGnb > li {
+    float: left;
+    line-height: 45px;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+.rightGnb > li span {
+    margin-right: 15px;
+}
+
+.rightGnb > li:first-child > a {
+    color: #ff6000;
+}
+
+
+/*headBottom*/
+.headBottom {
+    text-transform: uppercase;
+    position:relative;
+    z-index: 1000;
+}
+
+.headBottom .member {
+    float: left;
+    line-height: 54px;
+}
+
+.headBottom .member > li {
+    float: left;
+    margin-right: 40px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.headBottom .member > li > a {
+    color: #998366;
+    font-weight: 600;
+}
+
+.headBottom #nav {
+    float: right;
+}
+
+.headBottom #nav > li {
+    float: left;
+    margin-left: 100px;
+}
+
+.headBottom #nav > li > a {
+    display: block;
+    line-height: 54px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+    position: relative;
+}
+
+.headBottom #nav > li > a:after {
+    content: "";
+    display: none;
+    width: 4px;
+    height: 4px;
+    border: 4px solid #f9b234;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -6px;
+    z-index:100;
+}
+
+.headBottom #nav > li:hover > a:after {
+    display: block;
+}
+
+.headBottom #nav > li:hover > a {
+    color: #f9b234;
+}
+
+.headBottom .subWrap {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+/*    background-color: #ddd;*/
+    line-height: 2em;
+    padding-top:40px;
+}
+
+.headBottom .subWrap .sub{
+    float:left;
+}
+.headBottom .subWrap .sub>li{
+    float:left;
+    margin-right:50px;
+}
+
+.headBottom .subWrap .sub>li>a{
+    display: block;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+
+.headBottom .subWrap .navBanner{
+    float:right;
+}
+
+.headBottom #nav>li:hover .subWrap{
+    display: block;
+}
+
+.headBottom:hover:before{
+    content:"";
+    display: block;
+    width: 100%;
+    height:300px;
+    background:white;
+    border-bottom:1px solid #999;
+    position:absolute;
+    top:55px;
+}
+
+
+/* #container*/
+/* #container{
+
+} */
+
+/* .mainBanner */
+.mainBanner{
+     width:100%;
+     height:659px;
+    overflow: hidden;
+    position:relative;
+}
+
+.mainBanner>.mBanner{
+    width:800%;
+    height:100%;
+}
+
+.mainBanner>.mBanner>li{
+    width:12.5%;
+    height:100%;
+    float:left;
+}
+
+.mainBanner>.mBanner>li>a{    
+    display:block;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.mainBanner>.mBanner>.banner1>a{
+    background-image:url(../img/mainBanner1.png);
+}
+
+.mainBanner>.mBanner>.banner2>a{
+    background-image:url(../img/mainBanner2.png)
+}
+
+.mainBanner>.mBanner>.banner3>a{
+    background-image: url(../img/mainBanner3.jpg)
+}
+
+.mainBanner>.mBanner>.banner4>a{
+    background-image: url(../images/mainBanner4.jpg)
+}
+
+.mainBanner>.mBanner>.banner5>a{
+    background-image: url(../img/mainBanner5.jpg)
+}
+
+.mainBanner>.mBanner>.banner6>a{
+    background-image: url(../images/mainBanner6.jpg)
+}
+
+.mainBanner>.mBanner>.banner7>a{
+    background-image: url(../img/mainBanner7.jpg)
+}
+
+.mainBanner>.mBanner>.banner8>a{
+    background-image: url(../img/mainBanner8.jpg)
+}
+
+.mainBanner>.circleBtn{
+    position:absolute;
+    bottom:80px;
+    left:50%;
+    margin-left:-80px;
+}
+
+.mainBanner>.circleBtn>li{
+    float:left;
+    padding:5px;
+}
+
+.mainBanner>.circleBtn>li.active{
+    padding:2px;
+}
+
+.mainBanner>.circleBtn>li>a{
+    display: block;
+    width:10px;
+    height:10px;
+    background:#333;
+    border-radius: 50%;
+    text-indent:-9999px;
+}
+
+.mainBanner>.circleBtn>li.active>a{
+    width:16px;
+    height:16px;
+    background:white;
+}
+
+.mainBanner>.arrowBtn{
+    position: absolute;
+    width:1200px;
+    height:30px;
+    top:50%;
+    left:50%;
+    margin-left:-600px;
+}
+
+.mainBanner>.arrowBtn>a{
+    position:absolute;
+    color:white;
+    font-size:18px;
+    font-weight: bolder;
+    border-bottom:2px solid white;
+}
+
+.mainBanner>.arrowBtn>.prev{
+    left:-40px;
+    padding-left:30px;
+}
+
+.mainBanner>.arrowBtn>.next{
+    right:-40px;
+    padding-right:30px;
+}
+
+/* .contents */
+
+/* footer */

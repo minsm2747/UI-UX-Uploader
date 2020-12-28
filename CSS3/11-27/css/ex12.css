@@ -1,0 +1,59 @@
+/* li앞에 장식 제거 */
+#nav>li>a {
+    display: block;
+    height: 10px;
+    background-image: url(../img/gnb_menu.png);
+    text-indent: -99999px;
+}
+
+
+li {
+    list-style: none;
+}
+/* menu1 넓이: 107px 위치: 70px, 322px */
+#nav>.menu1>a {
+    width: 115px;
+    background-position: -69px -321px;
+}
+
+/* menu2 넓이: 56, 70, 22 :hover 139 22 */
+#nav>.menu2>a {
+    width: 115px;
+    background-position: -69px -22px;
+}
+
+/* menu3 넓이: 56 70 82 */
+#nav>.menu3>a {
+    background-position: -69px -82px;
+}
+
+/* menu4 56 70 142 */
+#nav>.menu4>a {
+    background-position: -69px -142px;
+}
+
+/* menu5 56 70 202 */
+#nav>.menu5>a {
+    background-position: -69px -202px;
+}
+
+/* .menu1 ~ menu5 hover에 위치값 지정 */
+#nav>.menu1>a:hover {
+    background-position: -69px -381px;
+}
+
+#nav>.menu2>a:hover {
+    background-position: -139px -22px;
+}
+
+#nav>.menu3>a:hover {
+    background-position: -139px -82px;
+}
+
+#nav>.menu4>a:hover {
+    background-position: -139px -142px;
+}
+
+#nav>.menu5>a:hover {
+    background-position: -139px -202px;
+}

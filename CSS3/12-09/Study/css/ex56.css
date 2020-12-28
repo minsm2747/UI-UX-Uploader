@@ -1,0 +1,24 @@
+div {
+    width: 284px;
+    height: 284px;
+    background: url("../image/1612970227.jpg")
+        no-repeat;
+    margin: 10px;
+    border: 20px solid rgba(255, 0, 0, 5);
+    padding: 30px;
+}
+
+/* box1이 테두리부터 배경 이미지가 들어간다 */
+.box1 {
+    background-origin: border-box;
+}
+
+/* box2는 테두리와 padding을 제외한 실제 본문 내용에만 배경이 들어감 */
+.box2 {
+    background-origin: content-box;
+}
+
+/* box3은 테두리를 제외한 padding 영억부터 이미지가 들어간다 */
+.box3 {
+    background-origin: padding-box;
+}

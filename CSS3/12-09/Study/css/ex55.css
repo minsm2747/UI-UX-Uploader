@@ -1,0 +1,12 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon;
+    margin: 10px;
+    border: 10px solid #000000;
+    padding: 25px;
+}
+
+.box2 {
+    box-sizing: border-box;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form 응용 실습 2</title>
+</head>
+<body>
+    <h1>수화물 정보</h1>
+    <h2>추가 정보</h2>
+    <form action="#" name="info" method="get">
+        <table border="1">
+            <tr>
+                <th><label for="package">패키지 수</label></th>
+                <td>
+                    <input type="number" id="package" min="0"  max="50" />
+                </td>
+            </tr>
+
+            <tr>
+                <!-- <th><label for="number_ok">패키지 수량이 일치합니까??</label></th> -->
+                <th><strong>패키지 수량이 일치합니까??</strong></th>
+                <td>
+                    <input type="radio" id="true" name="number_ok" /> 예
+                    <input type="radio" id="false" name="number_ok" /> 아니오
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="weight">패키지 별 무게</label></th>
+                <td>
+                    <input type="number" id="weight"  min="0" max="1000" />
+                    <select id="weight">
+                        <option value="g">g(그램)</option>
+                        <option value="Kg">Kg(킬로그램)</option>
+                    </select>
+                    <p>
+                        <input type="checkbox" id="FedEx" /> FedEx고객 번호를 사용하여 발송
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="receipt">픽업/방문 접수</label></th>
+                <td>
+                    <select id="receipt">
+                        <option value="PinkUp">FedEx픽업</option>
+                        <option value="Self">FedEx방문</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="dates">발송 날짜</label></th>
+                <td>
+                    <input type="date" id="dates" />
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2">
+                    <input type="button" value="빠른 견적 받기" />
+                    <input type="button" value="상세 견적 받기" />
+                </th>
+            </tr>
+    </form>
+</body>
+</html>

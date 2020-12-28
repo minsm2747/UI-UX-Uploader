@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Paris Baguette">
+    <meta property="og:image" content="img/paris_baguette_opengraph_3.jpg">
+    <title>파리바게트 웹 페이지 클론 코딩</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/cropped-PB_favicon-32x32.jpg">
+</head>
+<body>
+    <!-- 1. 상단(header) Part -->
+        <header>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search" />
+                    <a href="#void">
+                        <img src="img/icon-x.svg" alt="Close Button(닫기 버튼)">
+                    </a>
+                </form>
+            </div>
+
+            <div class="center">
+                <!-- Logo, Top Menu, Main Menu  -->
+                <h1 class="logo">
+                    <a href="/index.html">
+                        <img src="img/logo.svg" alt="ParisBaguette_Logo">
+                    </a>
+                </h1>
+                <nav>
+                    <h2 class="blind">Main Menu</h2>
+                    <ul>
+                        <li><a href="#void">PB MAGAZINE</a></li>
+                        <li><a href="#void">PB STORY</a></li>
+                        <li>
+                            <a href="#void">PRODUCTS</a>
+                            <div class="subWrap">
+                                <ul class="sub">
+                                    <li><a href="#">전체</a></li>
+                                    <li><a href="#">브레드</a></li>
+                                    <li><a href="#">케이크</a></li>
+                                    <li><a href="#">샌드위치/샐러드</a></li>
+                                    <li><a href="#">선물</a></li>
+                                    <li><a href="#">디저트/스낵</a></li>
+                                    <li><a href="#">음료/아이스</a></li>
+                                    <li><a href="#">간편식</a></li>
+                                </ul>
+
+                                <div>
+                                    <a href="#void">
+                                        <img src="img/product-pic.jpg" alt="First Class 이미지">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#void">STORE</a></li>
+                        <li><a href="#void">DELIVERY</a></li>
+                        <li><a href="#void">PROMOTION</a></li>
+                        <li><a href="#void"><i>Search</i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <hr>
+        &nbsp;
+     <!-- 2. 본문(container) Part -->
+        <section id="container">
+            <h2 class="blind">MainBanner, PB MAGAZINE, PB STORY, PROMOTTION, SNS</h2>
+            <section class="mainBanner">
+                <h3 class="blind"> MainBanner</h3>
+                <ul class="banner">
+                    <li><a href="#void"><img src="img/1110-상세-2020입시_Main-banner1.jpg" alt="새로운 시작"></a></li>
+                    <li><a href="#void"><img src="img/hmr_mainbanner.jpg" alt="First Class"></a></li>
+                    <li><a href="#void"><img src="img/HPmainbanner70.jpg" alt="파리바게트 커피가 새롭게 바뀌었습니다"></a></li>
+                </ul>
+            </section>
+            <!-- contens Part -->
+            <section class="contents">
+                <h3 class="blind">PB MAGAZINE, PB STORY, PROMOTTION, PRODUCTS, SNS</h3>
+                <div class="center">
+                    <section class="magzine">
+                        <h4 class="title">PB MAGAZINE</h4>
+                        <ul>
+                            <li>
+                                <a href="#void">
+                                    <img src="img/thumbnailArtboard-1-1-600x600.jpg" alt="">
+                                    <div class="gBox"></div>
+                                </a>
+                                <a href="">
+                                    <stong>강원도 감자빵</stong>
+                                    <span>지역농가와 우리 모두가 행복한 상생  프로젝트</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#void">
+                                    <img src="img/thumbnailArtboard-1-2-600x750.jpg" alt="">
+                                    <div class="gBox"></div>
+                                </a>
+                                <a href="#void">
+                                    <stong>세계에서 가장 많이 팔린 실키롤케잌</stong>
+                                    <span>32년간 우리와 함꼐 해 온 실키롤케잌</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#void">
+                                    <img src="img/thumbnailArtboard-1-3-600x750.jpg" alt="">
+                                    <div class="gBox"></div>
+                                </a>
+                                <a href="#void">
+                                    <stong>삼미종 생 식빵</stong>
+                                    <span>생으로 먹어도 참 맛있는 상미종 생 식빵</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="more"><a href="#void">SHOW MORE</a></p>
+                    </section>
+                    &nbsp;
+                    <!-- story Part -->
+                    <section class="story">
+                        <h4 class="title">PB STORY</h4>
+                        <ul>
+                            <li>
+                                <a href="#void"><img src="img/pb-story-썸네일_firstclasshmrPB-VIDEO-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span class="subTitle">
+                                        <a href="#void">BREAD VIDEO</a>
+                                    </span>
+                                    <h3 class="storyTitle">
+                                        <a href="#void">HMR의 새로운 클래스, <br>FIRST CLASS</a>
+                                    </h3>
+                                    <p>파바인가 레스토랑인가, 지금까지 이런 식사는 없었다</p>
+                                    <p class="date">2020-10-22</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#void"><img src="img/pb-story-썸네일_시간을담는셰프PB-VIDEO-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span class="subTitle">
+                                        <a href="#void">BREAD VIDEO</a>
+                                    </span>
+                                    <h3 class="storyTitle">
+                                        <a href="#">시간을 담는 셰프</a>
+                                    </h3>
+                                    <p>더 맛있는 빵의 비밀? 자연에서 찾은 토종효모, 상미종!</p>
+                                    <p class="date">2020-10-20</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#void"><img src="img/pb-story-썸네일_치즈페어PB-VIDEO-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span class="subTitle">
+                                        <a href="#void">BREAD VIDEO</a>
+                                    </span>
+                                    <h3 class="storyTitle">
+                                        <a href="#">2020 치즈페어</a>
+                                    </h3>
+                                    <p>Cheese Smile! 치즈 덕후들을 위한 파바 치즈페어!</p>
+                                    <p class="date">2020-10-07</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#void"><img src="img/pb-story-썸네일_레몬케이크파바왔숑-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span class="subTitle">
+                                        <a href="#void">BREAD VIDEO</a>
+                                    </span>
+                                    <h3 class="storyTitle">
+                                        <a href="#void">350억 생 유산균! 그릭요거트 <br>레몬케이크</a>
+                                    </h3>
+                                    <p>
+                                        건강함도 맛있게 챙겨요~ 상콤 새콤 부드러운<br>
+                                        그릭요거트 레몬케이크로!!
+                                    </p>
+                                    <p class="date">2020-10-07</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="more"><a href="#void">SHOW MORE</a></p>
+                    </section>
+                    <!-- promotion Part -->
+                    <section class="promotion">
+                        <h4 class="title">PROMOTTION</h4>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="img/md-thumbnail-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span>2020-11-23 ~ 2020-11-29</span>
+                                    <h3 class="promotionTitle">
+                                        따뜻한 집콕을 위한 패팅 블랭킷, 부츠<br>
+                                        사전예약
+                                    </h3>
+                                    <a href="#void">READ MORE</a>
+                                </div>
+                        </li>
+
+                            <li>
+                                <a href="#"><img src="img/thumbnail0-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span>2020-11-23 ~ 2020-12-31</span>
+                                    <h3 class="promotionTitle">
+                                        카카오톡 선물&주문하기에서만!<br>
+                                        레드벨벳 크림치즈 케이크
+                                    </h3>
+                                    <a href="#void">READ MORE</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="img/Untitled-1-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span>2020-11-16 ~ 2021-12-31</span>
+                                    <h3 class="promotionTitle">카페 아다지오 시그니처70</h3>
+                                    <a href="#void">READ MORE</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="img/1119-상세-입시-홀로그램-활용법썸네일-600x600.jpg" alt=""></a>
+                                <div class="textBox">
+                                    <span>2020-11-20 ~ 2020-12-03</span>
+                                    <h3 class="promotionTitle">3D 홀로그램 키트 활용방법!</h3>
+                                    <a href="#void">READ MORE</a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <div class="promotionBtn">
+                            <button>Left</button>
+                            <button>Right</button>
+                        </div>
+                        <p class="more"><a href="#void">SHOW MORE</a></p>
+                    </section>
+                    <!-- products -->
+                    <section class="products">
+                        <h4 class="title">PRODUCTS</h4>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="img/eum3420_550-600x600.jpg" alt=""></a>
+                                <a href="#void"><p class="text">페페로니 파카챠</p></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="img/Nano_Pengsu_600x600.png" alt=""></a>
+                                <a href="#void"><p class="text">나노 펭수 케이크</p></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="img/Panda_World_600x600.jpg" alt=""></a>
+                                <a href="#void"><p class="text">초코 바나나 팬더월드</p></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="img/Forest_600x600.jpg" alt=""></a>
+                                <a href="#void"><p class="text">통나무 마을 동물 친구들</p></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><img src="img/Holland_Pororo_600x600.jpg" alt=""></a>
+                                <a href="#void"><p class="text">네덜란드에 간 트래블러 뽀로로</p></a>
+                            </li>
+                        </ul>
+                        <div class="productsBtn">
+                            <button class="LeftBtn">Left</button>
+                            <button class="RigthBtn">Right</button>
+                        </div>
+                        <p class="more"><a href="#void">SHOW MORE</a></p>
+                    </section>
+                </div>
+                <!-- sns Part -->
+                <section class="sns">
+                    <h4>Oparisbaguette_kr</h4>
+                    <p>Instragram</p>
+                    <br>
+                    <!-- ul>li*6>a[href="#"]>img[src="img/sns_list$.jpg" alt=""]+div.textBox -->
+                    <ul>
+                        <li> 
+                            <a href="#">
+                                <img src="img/sns_list1.jpg" alt="">
+                                <div class="textBox">
+                                    <p>
+                                        .따뜻한 겨울을 위한 파바<br>
+                                        미리크리스마스~~ 패딩<br>
+                                        블랭킷&부츠 사전예약!!<br>
+                                        @__아, 이번 선물 이건 어떨까??
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="img/sns_list2.jpg" alt="">
+                                <div class="textBox">
+                                    <p>
+                                        파바의..A...S..M...R 파바가<br>
+                                        들려오는 제주 구좌 당근밭의<br>
+                                        소리를 들어보세요 모두가<br>
+                                        행복한 행복상생 프로젝트!!
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="img/sns_list3.jpg" alt="">
+                                <div class="textBox">
+                                    <p>
+                                        .크리스마스,, 그게 뭔데...;;;<br>
+                                        (feat. 패딩 소라게)나 홀로 집에..<br>
+                                        있어도,, 난,,, 슬프지 않아...<br>
+                                        파바 크리스마스 패딩 블랭킷&
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/sns_list4.jpg" alt="">
+                                <div class="textBox">
+                                    <p>
+                                        (소곤소곤) 여러분..<br>
+                                        들리시나요? 제주의 소리<br>
+                                        멀리 떠나지 못하는 요즘<br>
+                                        파바가 준비한 재주 랜선 여행
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/sns_list5.jpg" alt="">
+                                <div class="textBox">
+                                    <p>
+                                        올해 크리스마스는 아빠가 일일 산타!!<br>
+                                        마음까지 따뜻해지는<br>
+                                        파바 크리스마스 패딩 블랭킷&<br>
+                                        부츠@@ 올해 크리스마스엔..
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/sns_list6.jpg" alt="">
+                                <div class="textBox">
+                                    <p>
+                                        제주 구좌 당근으로 돌아온<br>
+                                        행복상생 프로젝트!!! 우리<br>
+                                        당근으로 더욱 신선하고<br>
+                                        더 건강하게!!!<br>
+                                        파바에서 만나는...
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- home-banner Part -->
+                <section class="home-banner">
+                    <h4 class="blind">고객센터, 제휴카드 안내, 공지사항</h4>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <h5 class="homeTitle">고객센터</h5>
+                                <p>
+                                    고객의 소리를 적극 경청하고 고객만족 향상<br>
+                                    활동을 지속적으로 실천합니다.
+                                </p> 
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <h5 class="homeTitle">제휴카드 안내</h5>
+                                <p>
+                                    해피포인드카드와 제휴카드 정보를 확인하세요.
+                                </p> 
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <h5 class="homeTitle">공지사항</h5>
+                                <p>
+                                    파리바게트 공지내용을 확인하세요.
+                                </p> 
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        <hr>
+        &nbsp;
+     <!-- 3. 하단(footer) Part -->
+        <footer>
+            <div class="footTop center">
+                <ul class="footMenu">
+                    <li>
+                        <strong>Info</strong>
+                        <ul>
+                            <li><a href="#void">브랜드 소개</a></li>
+                            <li><a href="#void">창업 안내</a></li>
+                            <li><a href="#void">거래희망 사전등록</a></li>
+                            <li><a href="#void">윤리신고센터</a></li>
+                            <li><a href="#void">채용</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <strong>Contact Us</strong>
+                        <ul>
+                            <li><a href="#void">고객센터</a></li>
+                            <li><a href="#void">080-731-2027</a></li>
+                            <li class="smallText">평일 09:00 ~ 1700(점심: 12:00 ~ 13:00</li>
+                            <li><a href="#void">고객칭찬</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="spcWrap">
+                    <p><a href="#"><img src="img/footer-logo-img-01.png" alt=""></a></p>
+                    <ul>
+                        <li><a href="#"><img src="img/footer-logo-img-06.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer-logo-img-02.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer-logo-img-03.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer-logo-img-04.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer-logo-img-05.png" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="followWrap">
+                    <strong>Follow Us</strong>
+                    <ul class="sns">
+                        <li><a href="#"><img src="img/sns_ico_01.svg" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="img/sns_ico_02.svg" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="img/sns_ico_03.svg" alt="Youtube"></a></li>
+                    </ul>
+
+                    <div class="familySite">
+                        <a href="#">Brand Sites</a>
+                        <ul class="famity">
+                            <li>
+                                <span>파리크라상</span>
+                                <ul>
+                                    <li><a href="#">파리크라상</a></li>
+                                    <li><a href="#">파스쿠찌</a></li>
+                                    <li><a href="#">파리바게뜨 중국</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span>비알코리아(주)</span>
+                                <ul>
+                                    <li><a href="#">베스킨라빈스</a></li>
+                                    <li><a href="#">던킨도너츠</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span>기타</span>
+                                <ul>
+                                    <li><a href="#">(주)샤니</a></li>
+                                    <li><a href="#">(주)삼림식품</a></li>
+                                    <li><a href="#">해피포인트</a></li>
+                                    <li><a href="#">SPC외식브랜드</a></li>
+                                    <li><a href="#">드퀀즈케이터링</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="fMenu">
+                        <li><a href="#void">이용약관</a></li>
+                        <li class="textColor"><a href="#void">개인정보처리방침</a></li>
+                        <li><a href="#void">이메일무단수집거부</a></li>
+                        <li><a href="#void">영상정보처리기기운영관리방침</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footBottom">
+                <p>
+                    All Rights Reserved © PARIS BAGUETTE, PARIS CROISSANT CO., LTD. 경기도 성남시 중원구 상대원동 사기막골로 31번길 18 (주) 파리크라상
+                </p>
+            </div>
+        </footer>
+        <!-- Aside - FootFix -->
+        <aside class="footFix">
+            <!-- aside : HTML5 들어서 새로 생긴 태그, 퀵 메뉴 삽입, 서브 페이지에서 서브메뉴 삽입 목적으로 주로 활용 -->
+            <p class="top">
+                <a href="#">
+                    <i><img src="img/chevron-up.svg" alt="TopBtn"></i>
+                    <span>Top</span>
+                </a>
+            </p>
+
+            <ul class="fixedMenu">
+                <li>
+                    <a href="#">
+                        <i><img src="img/store.svg" alt=""></i>
+                        <span>STORE</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i><img src="img/delivery.svg" alt=""></i>
+                        <span>DELIVERY</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i><img src="img/bell.svg" alt=""></i>
+                        <span>PROMO</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i><img src="img/franchise.svg" alt=""></i>
+                        <span>창업 안내</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <!-- Aside - bannerFix -->
+        <aside class="bannerFix">
+            <div>
+                <a href="#"><img src="img/KakaoTalk_Image_2020-11-23-12-18-52_002.jpeg" alt=""></a>
+                <button>닫기</button>
+            </div>
+
+            <div>
+                <a href="#"><img src="img/WEB-근사한끼-플로팅배너.jpeg" alt=""></a>
+                <button>닫기</button>
+            </div>
+        </aside>
+</body>
+</html>

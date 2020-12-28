@@ -1,0 +1,12 @@
+/* div 배경색=#ddd, 높이: 350px */
+div {
+    background-color: #ddd;
+    font-size: 50px;
+    height: 350px;
+}
+
+.box2 {
+    background-image: url(../img/mainBanner_202011050555493410.jpg);
+    background-attachment: fixed;
+    background-position: center 350px;
+}

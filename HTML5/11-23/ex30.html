@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page 30 (form 태그 응용 실습 (닷홈 웹 페이지 회원가입 페이지 클론코딩))</title>
+</head>
+<body>
+    <form name="members" method="get" action="">
+        <table>
+            <!-- tr*12>th+td -->
+            <tr>
+                <td>*는 필수 입력 사항입니다.</td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <p>
+                        <fieldset>
+                            <legend>로그인 정보 입력</legend>
+                            <table>
+                                <!-- tr*3>th+td -->
+                                <tr>
+                                    <th><label for="id">* 아이디</label></th>
+                                    <td><input type="text" id="id" name="id"
+                                        placeholder="아이디를 입력 하십시오" />
+                                        <button>중복 확인</button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th><label for="pwd1">* 비밀번호</label></th>
+                                    <td>
+                                        <input type="password" id="pwd1" placeholder="비밀번호를 입력 하십시오" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th><label for="pwd2">* 비밀번호 확인</label></th>
+                                    <td>
+                                        <input type="password" id="pwd2" placeholder="입력한 암호를 한번 더 입력 바랍니다" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>
+                        <!-- fieldset>legend+tr*4>th+td -->
+                        <fieldset>
+                            <legend>회원 정보 입력</legend>
+                            <table>
+                            <tr>
+                                <th><label for="company">성명(업체명)</label></th>
+                                <td>
+                                    <input type="text" id="company" placeholder="이름 및 업체명을 입력 하십시오" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <p><strong>회사명 기입 시 체크사항</strong></p>
+                                    <p>- 국내 상호는 특수문자 ( ) 괄호만 입력이 가능합니다.</p>
+                                    <p>- 국외 상호인 경우 반드시 영문으로 입력해주세요</p>
+                                    <p>- 국외 상호는 특수문자 &-`.,· 만 입력이 가능합니다.</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th><label for="tel">연락처</label></th>
+                                <td>
+                                    <input type="tel" name="tel" id="tel" placeholder="연락처 첫 자리 입력(필수)" /> -
+                                    <input type="text" title="연락처 중간 자리" placeholder="연락처 중간 자리 입력(필수)" /> -
+                                    <input type="text" title="연락처 마지막 자리" placeholder="연락처 마지막 자리 입력(필수)" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th><label for="E-Mail">E-Mail</label></th>
+                                <td>
+                                    <input type="text" id="mail" /> @
+                                    <select name="" title="">
+                                        <option value="직접 입력">직접 입력</option>
+                                        <option value="naver.com">naver.com</option>
+                                        <option value="daum.net">daum.net</option>
+                                        <option value="gmail.com">gmail.com</option>
+                                        <option value="nate.com">nate.com</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>상품 및 이벤트 정보 수신 동의</legend>
+                        <p>서비스만료 및 서비스정보에 관련된 내용은 수신동의 여부와 관계없이 발송됩니다.</p>
+                        <div>
+                            <label for="checkbox">이메일</label>
+                                <input type="checkbox" />
+                            <label for="checkbox">문자</label>
+                                <input type="checkbox" />
+                        </div> 
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>휴면 회원 전환기간</legend>
+                        <p>이 조건에 따라 계정을 휴면 전환 함으로써 고객님의 소중한 개인정보를 안전하게 관리합니다.</p>
+                        <div>
+                            <label for=""> <input type="radio" name="period" />1년</label>
+                            <label for=""><input type="radio" name="period" />탈퇴 시 까지 정보유지</label>
+                        </div>
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>
+                        <input type="text" placeholder="보안 문자를 입력 바랍니다." />
+                    </p>
+                    
+                    <p>
+                        <input type="submit" value="가입하기" />
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

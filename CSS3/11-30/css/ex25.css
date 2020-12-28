@@ -1,0 +1,27 @@
+p {
+    background-color: antiquewhite;
+}
+
+/* 가상 선택자 before 속성 적용 */
+p::before {
+    content: "Before";
+    color: red;
+    font-size: 50px;
+}
+
+/* 가상 선택자 after 속성 적용 */
+p::after {
+    content: "After";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* 가상 선택자 first-letter 속성 적용 */
+div::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+
+div::first-line {
+    background-color: antiquewhite;
+}

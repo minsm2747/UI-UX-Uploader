@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.box>li {
+    width: 300px;
+    height: 400px;
+    float: left;
+    background-color: #f0ffff;
+    margin: 20px;
+    position: relative;
+    border: 10px solid #1e90ff;
+    box-sizing: border-box;
+}
+
+.box>li:hover {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+/* li 수직선 */
+.box>li::before,
+.box>li::after,
+.box>li>a::before,
+.box>li>a::after {
+    content:"";
+    display: block;
+    background-color: #1e90ff;
+    position: absolute;
+    transition: 1s;
+}
+
+.box>li::before {    
+    width: -1px;
+    height: 0%;
+    top: -1px;
+}
+
+.box>li::after {    
+    width: -1px;
+    height: 0%;    
+    bottom: -1px;
+    right: 0;
+}
+
+.box>li:hover::before,
+.box>li:hover::after {
+    height: 100%;
+}
+
+.box>li>a {
+    width: 300px;
+    height: 400px;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    line-height: 400px;
+    top: 0;
+    left: 0;
+}
+
+/* a 수평선 */
+.box>li>a::before {
+    width: 0%;
+    height: 1px;
+}
+
+.box>li>a::after {
+    width: 0%;
+    height: 1px;   
+    right: 0;
+}
+
+.box>li:hover>a::before,
+.box>li:hover>a::after {
+    width: 100%;
+}

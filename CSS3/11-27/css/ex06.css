@@ -1,0 +1,39 @@
+p {
+    font-size: 24px;
+}
+
+.cursor2 {
+    cursor: all-scroll;
+}
+
+.cursor3 {
+    cursor: cell;
+}
+
+.cursor4 {
+    cursor: copy;
+}
+
+.cursor5 {
+    cursor: e-resize;
+}
+
+.cursor6 {
+    cursor: grabbing;
+}
+
+.cursor7 {
+    cursor: move;
+}
+
+.cursor8 {
+    cursor:pointer;
+}
+
+.cursor9 {
+    cursor: wait;
+}
+
+.cursor10 {
+    cursor: zoom-in;
+}

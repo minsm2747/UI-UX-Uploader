@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transition-duration: 2s;
+    transition-property: width;
+    /* transition-delay: 3s; */
+}
+
+.box:hover {
+    width: 400px;
+    height: 400px;
+    background-color: greenyellow;
+}

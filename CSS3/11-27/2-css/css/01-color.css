@@ -1,0 +1,30 @@
+/*color*/
+/* 1. 색상명: red, green, blue
+2. 16진코드값 : #dddddd: #ddd, #afafaf, # aabbcc: #abc
+3. rgb 10진값 : rgb(red,green,blue)
+red : 0 ~ 255, 0%~100%
+*/
+p{
+    background:#ccc;
+}
+.color1{
+    color:red;
+}
+.color2{
+    color:#ff0000;
+}
+.color3{
+    color:rgb(0,0,255);
+}
+.color4{
+    color:rgb(0%,0%,100%);
+}
+/*투명도는 0~1*/
+.color5{
+    color:rgba(0,0,255,0.5);
+}
+
+.color6{
+    color:hsla(175, 100%, 73%, 1)
+}
+

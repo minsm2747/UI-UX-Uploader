@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.border>li {
+    display: inline-block;
+    border-right: 1px solid #888;
+    padding: 0 14px 0 10px;
+    line-height: 1;
+}
+
+.border>li:last-child {
+    border-right: 0;
+}
+
+.pBorder>li {
+    display: inline-block;
+    padding: 0 14px 0 10px;
+    position: relative;
+    line-height: 1;
+    background: yellowgreen;
+}
+
+.pBorder>li::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 8px;
+    background: red;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.pBorder>li:last-child:after {
+    display: none;
+}

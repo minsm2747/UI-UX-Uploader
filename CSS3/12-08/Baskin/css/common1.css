@@ -1,0 +1,49 @@
+/* 외부 여백, 내부 여백 제거 */
+* {
+    margin:0;
+    padding:0;
+}
+
+li {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color:#736a60;
+}
+
+body {
+    font-family: 'NanumBarunGothic','Nanum Gothic', sans-serif;
+    font-size:12px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color:#333;
+}
+
+.blind {
+    position:absolute;
+    top:-9999px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+hr {
+    display: none;
+}
+
+.clearFix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+address,i,em{
+    font-style:normal;
+}

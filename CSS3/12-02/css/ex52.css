@@ -1,0 +1,16 @@
+p {
+    background-color: salmon;
+}
+
+img {
+    float: left;
+}
+
+.text1 {
+    margin-left: 200px;
+    float: left;
+}
+
+.text2 {
+    clear: both;
+}

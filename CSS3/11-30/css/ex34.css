@@ -1,0 +1,21 @@
+div {
+    width: 250px;
+    background: pink;
+    margin-bottom: 50px;
+}
+
+.box2 {
+    white-space: nowrap;
+}
+
+.box3 {
+    white-space: pre;
+}
+
+.box4 {
+    white-space: pre-wrap;
+}
+
+.box5 {
+    white-space: pre-line;
+}

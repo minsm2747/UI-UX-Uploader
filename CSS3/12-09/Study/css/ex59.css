@@ -1,0 +1,11 @@
+div {
+    width: 300px;
+    height: 60px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffbb00+10,0015ff+80 */
+    background: #ffbb00; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ffbb00 10%, #0015ff 80%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ffbb00 10%,#0015ff 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #ffbb00 10%,#0015ff 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb00', endColorstr='#0015ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}

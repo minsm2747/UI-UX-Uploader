@@ -1,0 +1,7 @@
+div {
+    background-color: antiquewhite;
+    width: 600px;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: solid #0000ff;
+}

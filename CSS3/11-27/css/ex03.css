@@ -1,0 +1,29 @@
+/* 모든 폰트의 크기를 12px로 조절 */
+* {
+    font-size: 12px;
+}
+
+/* 문자 1의 크기를 30px로 변경 */
+.font1 {
+    font-size: 30px;
+}
+
+/* 문자 2의 크기를 문자 1의 2배로 크게 변경 */
+.font2 {
+    font-size: 2.5em;
+}
+
+/* 문자3 x를 기준으로 크기를 5배로 크게 변경 */
+.font3 {
+    font-size: 5ex;
+}
+
+/* 문자4 vw */
+.font4 {
+    font-size: 45vw;
+}
+
+/* 문지5 vh */
+.font5 {
+    font-size: 25vh;
+}

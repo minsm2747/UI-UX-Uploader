@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#warp {
+    border: 10px solid #000000;
+    background-color: deepskyblue;
+    /* height: 204px; */
+    /* float: left; */
+    overflow: hidden;
+}
+
+/* #warp::after {
+    content: After;
+    display: blank;
+    clear: both;
+} */
+
+/* 모든 자식요소에게 float속성을 적용 할 시 부모요소의 높이 값이 소멸된다 */
+
+/* 부모요소 찾기 1  : (height 속성 활용) => 자식요소의 높이를 계산 해야함...  */
+/* 부묘요소 찾기 2  : (float 속성 적용) => 부모의 넓이는 자식의 넓이 만큼 비례 */
+/* 부모요소 찾기 3 : (overflow 속성 적용) => hidden  */
+/* 부묘요소 찾기 4 : (atrer 적용) => 
+    부모선택자::atrer {
+        content: "";
+        display: :blank;
+        cloer: both;
+        이전의 형제요소에 적용한 float의 영향에서 독립
+    } */
+#warp>div {
+    border: 2px solid #555;
+}
+
+#warp>.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    float: left;
+}
+
+#warp>.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    float: right;
+}
+
+#warp>.box3 {
+    width: 250px;
+    height: 150px;
+    background-color: darksalmon;
+    float: right;
+}
+
+#warp>.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    float: left;
+}

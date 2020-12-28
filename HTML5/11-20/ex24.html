@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page 24(Table 태그 실습, 줄 그룹화)</title>
+    <link rel="stylesheet" href="css/Example04.css">
+</head>
+<body>
+    <h1>Test Page 24(Table 태그 실습, 줄 그룹화)</h1>
+    <h2>웹 표준 인증 사이트</h2>
+    
+    <table border="1">
+        <thead> 
+            <!-- tr>th*4 -->
+            <tr>
+                <th id="year">연도</th>
+                <th id="site1">신청사이트</th>
+                <th id="site2">인증사이트</th>
+                <th id="pass">합격률</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <!-- tr>td*4 -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+
+        <!-- tr*5>th+td*3 -->
+        <tr>
+            <th id="y2014">2014년</th>
+            <td headers="y2014 site1">200</td>
+            <td headers="y2014 site2">100</td>
+            <td headers="y2014 pass">50%</td>
+        </tr>
+
+        <tr>
+            <th id="y2015">2015년</th>
+            <td headers="y2015 site1">100</td>
+            <td headers="y2015 site2">0</td>
+            <td headers="y2015 pass">0%</td>
+        </tr>
+
+        <tr>
+            <th id="y2016">2016년</th>
+            <td headers="y2016 site1">300</td>
+            <td headers="y2016 site2">300</td>
+            <td headers="y2016 pass">100%</td>
+        </tr>
+
+        <tr>
+            <th id="y2017">2017년</th>
+            <td headers="y2017 site1">200</td>
+            <td headers="y2017 site2">50</td>
+            <td headers="y2017 pass">25%</td>
+        </tr>
+
+        <tr>
+            <th id="y2018">2018년</th>
+            <td headers="y2018 site1">200</td>
+            <td headers="y2018 site2">150</td>
+            <td headers="y2018 pass">75%</td>
+        </tr>
+    </table>
+
+    <br />
+        <div>
+            <a href="./ex23.html">이전 페이지</a> || <a href="./ex25.html">다음 페이지</a>
+        </div>
+</body>
+</body>
+</html>

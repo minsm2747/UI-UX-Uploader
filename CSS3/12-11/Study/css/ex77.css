@@ -1,0 +1,28 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    position: absolute;
+    animation-duration: 3s;
+    animation-name: ani;
+    animation-iteration-count: infinite;
+    animation-direction: Band Prefix;
+}
+
+@keyframes ani {
+    from {
+        left: 10px;
+        top: 10px;
+    }
+
+    50% {
+        left: 500px;
+        top: 400px;
+    }
+
+    to {
+        left: 1000px;
+        top: 10px;
+    }
+}

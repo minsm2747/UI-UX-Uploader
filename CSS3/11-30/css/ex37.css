@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "돋음", dotum, sans-serif;
+    font-size: 12px;
+}
+
+.noticeWrap {
+    margin: 100px;
+    width: 205px;
+    background-color: antiquewhite;
+}
+
+.news>li>a>span:first-child {
+    display: inline-block;
+    width: 160px;
+    background-color: pink;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news>li>a>span:last-child {
+    display: inline-block;
+    margin-left: 5px;
+}

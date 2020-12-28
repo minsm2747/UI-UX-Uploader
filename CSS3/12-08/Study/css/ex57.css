@@ -1,0 +1,26 @@
+div {
+    width: 284px;
+    height: 284px;
+    background: url("../image/1599636322.jpg")
+        no-repeat;
+    margin: 10px;
+    border: 20px solid rgba(255, 0, 0, 5);
+    padding: 30px;
+    /* background-clip: border-box; */
+}
+
+/* 테두리부터 배경이 삽입된다. */
+.box1 {
+    background-clip: border-box;
+}
+
+/* 넓이 값(width)로 잡힌 영역 내에서만 한시적으로 배경 이미지 삽입
+    border, padding 영역에선 이미지가 보이지 않는다. */
+.box2 {
+    background-clip: content-box;
+}
+
+/* 배경 이미지가 테두리를 제외한 나머지 영역에서만 보이게 된다. */
+.box3 {
+    background-clip: padding-box;
+}

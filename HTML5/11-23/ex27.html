@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page 27(form 태그를 활용하여 회원가입 양식 제작)</title>
+</head>
+<body>
+    <h1>회원가입 양식</h1>
+    <p>xhtml 요소들</p>
+
+    <form action="./ex27_ok.html" method="get" name="members">
+        <p>
+            <label for="name">이름: </label>
+            <input type="text" id="name" placeholder="홍길동" required />
+        </p>
+
+        <p>
+            <label for="id"> 아이디: 
+                <input type="text" id="id" required />
+            </label>
+        </p>
+
+        <p>
+            <label for="pwd"> 비밀번호: 
+                <input type="password" id="pwd" required />
+            </label>
+        </p>
+
+        <p>
+            <span>성별:</span>
+            <label for="man">남</label>
+                <input type="radio" id="man" name="gender" />
+            <label for="women">여</label>
+                <input type="radio" id="women" name="gender" />
+        </p>
+
+        <p>
+            <span>취미:</span>
+            <label for="health">운동</label>
+                <input type="checkbox" id="health" />
+
+            <label for="book">독서</label>
+                <input type="checkbox" id="book" />
+
+            <label for="baseball">야구 관람</label>
+                <input type="checkbox" id="baseball" />
+
+            <label for="music">음악 감상</label>
+                <input type="checkbox" id="music" />
+        </p>
+
+        <p>
+            <label for="photo">사진:</label>
+                <input type="file" id="photo" />
+        </p>
+
+        <p>
+            <label for="Tel">연락처:</label>
+                <input type="text" id="tel" size="3" maxlength="3" /> -
+                <input type="text" title="전화번호 두번째 자리입니다." size="4" maxlength="4" /> -
+                <input type="text" title="전화번호 마지막 자리입니다." size="4" maxlength="4" />
+        </p>
+        <br />
+
+        <p>
+            <input type="submit" value="회원 가입" />
+            <input type="reset" value="가입 취소" />
+            <button>메인 화면으로...</button>
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "381da2c2f7fd51f8de877c044d7f439d",
+      "css": "picture",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9d3d9d6ce1ec63eaa26281e6162853c9",
+      "css": "camera-alt",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0f99ab40ab0b4d64a74f2d0deeb03e42",
+      "css": "videocam",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f70c91fbe8fe362c511853d32774d0aa",
+      "css": "shopping-cart",
+      "code": 59395,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M562.5 875C551 875 541.7 865.7 541.7 854.2S551 833.3 562.5 833.3 583.3 842.7 583.3 854.2 574 875 562.5 875M562.5 791.7C528 791.7 500 819.7 500 854.2S528 916.7 562.5 916.7 625 888.7 625 854.2 597 791.7 562.5 791.7M312.5 875C301 875 291.7 865.7 291.7 854.2S301 833.3 312.5 833.3 333.3 842.7 333.3 854.2 324 875 312.5 875M312.5 791.7C278 791.7 250 819.7 250 854.2S278 916.7 312.5 916.7 375 888.7 375 854.2 347 791.7 312.5 791.7M1000 125H876.5L724.8 750H169.7L0 208.2H813.4L843.8 83.3H1000V125ZM59.1 249.9L200.5 708.3H691.9L803.3 249.9H59.1Z",
+        "width": 1000
+      },
+      "search": [
+        "iconmonstr-shopping-cart-thin"
+      ]
+    }
+  ]
+}

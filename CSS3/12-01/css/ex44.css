@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    font-family: "돋음", dotum, sans-serif;
+    font-size: 14px;
+}
+
+.blind {
+    position: absolute;
+    top: -99999px;
+}
+
+.noticeData {
+    width: 1200px;
+    margin: 50px auto;
+    background-color: antiquewhite;
+}
+
+.noticeData>div {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    position: relative;
+}
+
+.noticeData h3 {
+    margin: 20px 0 0 30px;
+}
+
+.noticeData ul {
+    margin: 20px 30px 0 30px;
+    line-height: 1.5;
+}
+
+.noticeData ul>li {
+    background: pink;
+    position: relative;
+}
+
+.noticeData ul>li>a {
+    display: block;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noticeData ul>li>span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.more {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.more>a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}

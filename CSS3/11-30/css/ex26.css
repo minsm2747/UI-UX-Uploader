@@ -1,0 +1,29 @@
+li {
+    list-style: none;
+}
+
+/* 첫번째 li를 선택해서 글자 사이즈를 증가 */
+.list>li:first-child {
+    font-size: 50px;
+}
+
+/* 마지막 li를 선택해서 밑줄 적용 */
+.list>li:last-child {
+    text-decoration: underline;
+}
+
+/* 3번째 li 태그에게 글자를 굶고 색상 적용 */
+.list>li:nth-child(3) {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* 찍수 번째의 li들의 배경 색을 Pink로 변경 */
+.list>li:nth-child(2n) {
+    background-color: pink;
+}
+
+/* 홀수 번쨰의 li들의  배경 색을 green으로 변경 */
+.list>li:nth-child(2n+1) {
+    background-color: green;
+}

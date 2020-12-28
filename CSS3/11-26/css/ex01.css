@@ -1,0 +1,15 @@
+/* p 태그의 모든 문자 색상을 초록으로 변경 */
+/* p {
+    color: saddlebrown;
+} */
+
+
+/* 태그 선택자 */
+/* h1,h2 {
+    background: #4AB34A;
+} */
+
+/* 전체 선택자 (*) */
+* {
+        background: #4AB34A;
+}

@@ -1,0 +1,25 @@
+/* target 속성을 탐색 후 글자 크기를 50px로 변경 */
+a[target] {
+    font-size: 50px;
+}
+
+/* href의 값이 https://www.daum.net을 찾아서 글자색을 초록색으로 변경 */
+a[href="https://www.daum.net"] {
+    color: green;
+    font-weight: bold;
+}
+
+/* href https로 시작하는 요소를 찾아 배경색 적용 */
+a[href ^= "https"] {
+    background: pink;
+}
+
+/* href com으로 끝나는 요소를 찾아 글자 기울기 적용 */
+a[href $= "com"] {
+    font-style: italic;
+}
+
+/* net이라는 단어가 포함된 요소를 찾아 배경색을 노란색으로 변경 */
+a[href *= "net"] {
+    background: yellow;
+}

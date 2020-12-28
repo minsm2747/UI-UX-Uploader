@@ -1,0 +1,9 @@
+div {
+    width: 20px;
+    height: 20px;
+    /* background-color: antiquewhite; */
+    border-top: 10px solid green;
+    border-right: 10px solid blue transparent;
+    border-bottom: 10px solid red transparent;
+    border-left: 10px solid black transparent;
+}

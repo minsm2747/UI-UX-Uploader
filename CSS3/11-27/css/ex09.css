@@ -1,0 +1,22 @@
+.quick>li {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/icon_quickmenu.png);
+}
+
+.quick>.Quick1 {
+    background-repeat: no-repeat;
+}
+
+.quick>.Quick2 {
+    
+    background-position: -70px 0;
+}
+
+.quick>.Quick3 {
+    background-position: -140px 0;
+}
+
+.quick>.Quick4 {
+    background-position: -210px 0;
+}

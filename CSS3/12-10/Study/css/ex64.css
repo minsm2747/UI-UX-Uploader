@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid #459edc;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.busprice tr:first-child>th {
+    background: #2180c4;
+    color: #ffffff;
+}
+
+.busprice tr>td:last-child {
+    border-right: nore;
+}
+
+.busprice tr>th {
+    border-left: none;
+}

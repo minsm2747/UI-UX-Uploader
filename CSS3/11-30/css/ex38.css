@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+    color: #444;
+}
+
+.noticeWrap {
+    margin: 50px;
+    width: 493px;
+    height: 222px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: url(../img/m_box_bg11.jpg) 
+        no-repeat 30px center;
+}
+
+.noticeWrap>.title {
+    font-size: 18px;
+    /* padding: 내부 여백을 설정 할 때 사용 */
+    /* margin: 외부 여백을 설정 할 때 사용 */
+    padding: 25px 0 0 30px;
+    /* margin: 25px 0 0 30px; */
+}
+
+.notice {
+    margin: 30px 0 0 150px;
+    line-height: 1.5;
+}
+
+.notice>li {
+    background: url(../img/bluet02.gif)
+        no-repeat 0 8px center;
+    padding-left: 10px;
+}
+
+.notice>li>a {
+    display: inline-block;
+    width: 180px;
+    background: pink;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noticeWrap>li>span {
+    margin-left: 50px;
+}

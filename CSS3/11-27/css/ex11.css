@@ -1,0 +1,25 @@
+/* li, div, p => 블럭 요소 */
+/* a => 인라인 요소  */
+li {
+    list-style: none;
+}
+
+.arrow>li>a {
+    display: block;
+    width: 21px;
+    height: 25px;
+    background-image: url(../img/controls.png);
+    text-indent: -99999px;
+}
+
+.arrow>.rightBtn>a {
+    background-position: -21px 0;
+}
+
+.arrow>.leftBtn>a:hover {
+    background-position: 0 -29px;
+}
+
+.arrow>.rightBtn>a:hover {
+    background-position: -21px -29px;
+}

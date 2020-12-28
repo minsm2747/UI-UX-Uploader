@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: darkturquoise;
+    margin: 10px 30px;
+    transition: 1.5s;
+    border: 5px solid #ddd;
+}
+
+#box1:target {
+    transform: translate(250%, 200px);
+}
+
+.box2:hover {
+    transform: scale(2,2);
+}
+
+.box3:hover {
+    transform: skewX(30deg);
+}
+
+.box4:hover {
+    transform: rotateX(360deg);
+}
+
+.box5:hover {
+    transform:
+        rotate(180deg)
+        scale(2);
+}

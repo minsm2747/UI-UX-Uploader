@@ -1,0 +1,35 @@
+/* Color */
+/* 1. 색상 영문명으로 색상을 적용 시키는 방법 : red, blue, green 등 */
+/* 2. 16진수 유니코드 값으로 색상을 적용하는 방법 : #ccc, #afafaf, #000000, #1b1b1b 등 */
+/* ex) #aabbcc => #abe, 같은 색상인 경우, 수가 클 수록 밝기가 밝아진다. */
+/* 3. rgb 코드 : 10진수로 0 ~ 255또는 n %로 10진수 숫자로 색상을 표시 */
+p {
+    background: #ccc;
+}
+
+/* 클래스 선택자 (.)*/
+.color1 {
+    color: seagreen;
+}
+
+.color2 {
+    color: #cc0000;
+}
+
+.color3 {
+    color: rgb(0, 0, 200);
+}
+
+.color4 {
+    color: rgb(50%, 50%, 0%);
+}
+
+/* 투명도 설정은 0 ~ 1로 설정 */
+.color5 {
+    color: rgba(35, 100, 45, 0.6);
+}
+
+/* hsla(hue(색상),saturation(채도),light(밝기),alpha(투명도)) */
+.color6 {
+    color: hsla(170, 60%, 35%, 0.5);
+}

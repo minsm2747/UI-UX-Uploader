@@ -1,0 +1,8 @@
+/* p의 글자색을 초록으로 */
+p{
+    color:green;
+}
+/* h1, h2 배경색*/
+*{
+    background:yellow;
+}

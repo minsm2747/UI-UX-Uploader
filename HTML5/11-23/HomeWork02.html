@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table 응용 하드 코딩 02</title>
+    <link rel="stylesheet" href="css/ExampleA.css">
+</head>
+<body>
+    <h1>수하물 요금표</h1>
+    <figure>
+        <table border="1" align="center">
+            <caption>에어서울 수하물 요금표</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">구 분</th>
+                        <th id="price1">정규/할인 운임</th>
+                        <th id="age2" colspan="4">특가운임(프로코션 특가운임)</th>
+                    </tr>
+
+                    <tr>
+                        <th id="age1">성인/소아</th>
+                        <th id="age2">유아</th>
+                        <th id="age3">성인/소아</th>
+                        <th id="age4">유아</th>
+                    </tr>
+                </thead>
+            <tr>
+                <th rowspan="2" id="card">미주 노선 제외</th>
+                <td colspan="1">무게 15kg</td>
+                <td headers="card_value_age2">600원</td>
+                <td align="center">X</td>
+                <td headers="card_value_age3" align="center">X</td>
+            </tr>
+
+            <tr>
+                <td headers="card_value_age4"></td>
+                <td headers="card_value_age5">1,000원</td>
+                <td headers="card_value_age6">800원</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" id="cash">미주 노선</th>
+                <td headers="cash_value_age1">무게 23kg</td>
+                <td headers="cash_value_age2">700원</td>
+                <td headers="cash_value_age3">500원</td>
+                <td></td>
+            </tr>
+        </table>
+        <br />
+        <figcaption align="center">에어서울 위탁화물 변경안 적용 : 2018년 2월 1일 07시 발권 기준</figcaption>
+    </figure>
+</body>
+</html>

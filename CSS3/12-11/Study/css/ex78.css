@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    height: 900px;
+    background: url("../image/main_visual_img01_pc.jpg")
+        center center;
+    position: relative;
+}
+
+.circleWrap {
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 255, 3);
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 300px;
+}
+
+.circleWrap>.circle {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%, -50%);
+    animation-name: circles;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.circleWrap>.circle:last-child {
+    animation-delay: 2s;
+}
+
+@keyframes circles {
+    from {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    to {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+}
+
+.scrollWrap {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateY(-50%);
+    animation-name: scrolls;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes scrolls {
+    0% {
+        bottom: 50px;
+    }
+
+    100% {
+        bottom: 80px;
+    }
+}

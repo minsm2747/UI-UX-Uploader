@@ -1,0 +1,10 @@
+/* h1 다음에 오는 h2만 선택해서 글자색을 green로 변경하고 밑줄 추가 */
+h1 + h2 {
+    color: green;
+    text-decoration: underline;
+}
+
+/* h1 이후에 오는 모든 p에 배경색 지정 */
+h1 ~ p {
+    background: pink;
+}

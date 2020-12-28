@@ -1,0 +1,86 @@
+body{
+   font-family: 'Nanum Gothic', sans-serif;
+}
+/*h2 제목 가운데 정렬 ,글자색 */
+h2{
+    color:dodgerblue;
+    text-align:center;
+}
+/*h3 글자체 궁서체 */
+h3{
+    font-family:"궁서",serif;
+}
+
+
+.right{
+    text-align:right;
+    font-size:12px;
+}
+
+/*bigText 크기 28px 글자색 짙은 회색 */
+.bigText{
+    font-size:28px;
+    color:#555;
+    word-spacing:10px;
+}
+
+/*bigText안에 있는 span은 글자색을 초록으로*/
+.bigText>span{
+    color:green;
+}
+
+/*bigText 크기 28px 글자색 짙은 회색 */
+
+/*
+.bigText{
+    font-size:28px;
+    color:#555;
+   
+    span{
+    color:green;
+   }
+}
+*/
+/*.text1 줄간격2 색상변경 */
+.text1{
+    color:#999;
+    line-height:2;
+/*    단위 생략시 배수단위 */
+}
+
+/*.text1 a 밑줄 제거하고, 색상변경*/
+.text1>a{
+    color:pink;
+    text-decoration: none;
+}
+
+/*.text2 자간 들여쓰기 색상변경*/
+.text2{
+    color:deepskyblue;
+    text-indent: 50px;
+    text-align:justify;
+}
+
+
+/*#idText 영문자를 대문자 기울기 자간*/
+#idText{
+    text-transform:uppercase;
+    letter-spacing:10px;
+}
+/*#idText>a 글자를 굵게*/
+#idText>a{
+    font-weight:bold;
+}
+
+/*#idText>span 기울기 */
+#idText>span{
+    font-style:italic;
+}
+
+
+
+
+
+
+
+

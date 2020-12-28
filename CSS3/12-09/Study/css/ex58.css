@@ -1,0 +1,23 @@
+h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    color: skyblue;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 10px;
+}
+
+.box1 {
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.box2 {
+    border-radius: 50%;
+    box-shadow: 0 0 10px #812cf0
+        inset, 5px 5px 5px;
+}

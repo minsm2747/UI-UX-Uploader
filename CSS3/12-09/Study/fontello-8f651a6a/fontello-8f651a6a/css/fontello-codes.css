@@ -1,0 +1,5 @@
+
+.icon-camera-alt:before { content: '\e800'; } /* '' */
+.icon-videocam:before { content: '\e801'; } /* '' */
+.icon-picture:before { content: '\e802'; } /* '' */
+.icon-shopping-cart:before { content: '\e803'; } /* '' */

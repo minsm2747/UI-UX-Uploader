@@ -1,0 +1,20 @@
+/* 첫 번쨰에 있는 dd를 배경 지정 */
+dl>dd:first-of-type {
+    background: greenyellow;
+}
+
+/* 마지막에 있는 dd를 글자 사이즈 조정 */
+dl>dd:last-child {
+    background: green;
+    font-size: 50px;
+}
+
+/* 이렇게 해도 last-child과 동일하게 적용 */
+/* dl>dd:last-of-type {
+    font-size: 50px;
+} */
+
+/* 설명 3에 밑줄 추가 */
+dl>dd:nth-last-of-type(3) {
+    text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+div {
+    width: 140px;
+    height: 130px;
+    background: url(../img/mallProdut_202010270409107730.png)
+        no-repeat center center;
+    background-size: 100%;
+    transition: 1s;
+}
+
+div:hover {
+    background-size: 120px;
+}

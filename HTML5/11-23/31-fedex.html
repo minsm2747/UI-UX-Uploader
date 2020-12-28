@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>31-fedex</title>
+</head>
+
+<body>
+    <h1>수화물정보</h1>
+    <h2>추가정보</h2>
+    <form name="" method="" action="">
+        <table>
+            <tr>
+                <th><label for="package">패키지 수</label></th>
+                <td><input type="number" id="package"></td>
+            </tr>
+            <tr>
+                <th><strong>패키지가 일치합니까?</strong></th>
+                <td><input type="radio" id="yes" name="yesno"><label for="yes">예</label>
+                    <input type="radio" id="no" name="yesno"><label for="no">아니오</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="weight">패키지별 무게</label></th>
+                <td>
+                    <input type="number" id="weight">
+                    <select title="패키지별 무게 kg과 g중 선택하세요">
+                        <option value="kg">킬로그램</option>
+                        <option value="g">그램</option>
+                    </select>
+                    <p>
+                        <input type="checkbox" id="FedEx">
+                        <label for="FedEx">FedEx고객번호를 사용하여 발송</label>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="visit">픽업/방문접수</label></th>
+                <td>
+                    <select name="visit" id="visit">
+                        <option value="FedEx픽업">FedEx픽업</option>
+                        <option value="FedEx방문">FedEx방문</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="date">발송날짜</label></th>
+                <td><input type="date" id="date"></td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <button>빠른 견적받기</button>
+                    <button>상세 견적받기</button>
+                </th>
+            </tr>
+        </table>
+    </form>
+</body></html>

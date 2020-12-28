@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page 26(Table 태그 실습, 하드코딩)</title>
+    <link rel="stylesheet" href="css/Example05.css">
+</head>
+<body>
+    <figure>
+        <table border="1" align="center">
+            <caption>XY시 버스요금 조정안 <br /> (20xx년 x월 x일부로 적용)</caption>
+                <thead>
+                    <tr>
+                        <th colspan="3">구 분</th>
+                        <th id="age1">성인</th>
+                        <th id="age2">청소년</th>
+                        <th id="age3">어린이</th>
+                    </tr>
+                </thead>
+            <tr>
+                <th rowspan="4" >일반요금</th>
+                <th rowspan="2" id="card">카드</th>
+                <th id="card_now_price1">현행</th>
+                <td headers="card_value-age1">850원</td>
+                <td headers="card_value_age2">600원</td>
+                <td headers="card_value_age3">400원</td>
+            </tr>
+
+            <tr>
+                <th id="card_after_price2">조정</th>
+                <td headers="card_value_age4">1,300원</td>
+                <td headers="card_value_age5">1,000원</td>
+                <td headers="card_value_age6">800원</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" id="cash">현금</th>
+                <th id="cash_now_price1">현행</th>
+                <td headers="cash_value_age1">950원</td>
+                <td headers="cash_value_age2">700원</td>
+                <td headers="cash_value_age3">500원</td>
+            </tr>
+
+            <tr>
+                <th id="cash_after_price2">조정</th>
+                <td headers="cash_value_age4">1,100원</td>
+                <td headers="cash_value_age5">900원</td>
+                <td headers="cash_value_age6">600원</td>
+            </tr>
+        </table>
+        <br />
+        <figcaption align="center">참고 : 만 3세 이하는 무임으로 승차가 가능하나 단, 3인 이상 탑승 할 경우 어린이 요금을 받습니다.</figcaption>
+    </figure>
+</body>
+</html>

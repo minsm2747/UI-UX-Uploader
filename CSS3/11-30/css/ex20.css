@@ -1,0 +1,20 @@
+.logo>a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: url("../img/img_etc01.gif")
+        no-repeat center center;
+}
+
+.button>a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}

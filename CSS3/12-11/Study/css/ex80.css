@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#mainBanner {
+    position: relative;
+    height: 440px;
+    width: 100%;
+}
+
+.banner {
+    width: 600%;
+    transition: 1s;
+}
+
+.banner>li {
+    /* css cals (단위가 있는 요소를 계산 할때 활용) */
+    /* sass cals => 동일 단위만 계산 가능 */
+    width: 16.66666%;
+    height: 440px;
+    float: left;
+}
+
+.banner>li>a {
+    display: block;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner>.banner1>a {
+    background-image: 
+    url("../image/main_PC_1920x440_20201006040046969.jpg");
+}
+
+.banner>.banner2>a {
+    background-image: 
+    url("../image/main_PC_1920x440_20201007112359990.jpg");
+}
+
+.banner>.banner3>a {
+    background-image: 
+    url("../image/main_PC_1920x440_20201007112359990.jpg");
+}
+
+
+.banner>.banner4>a {
+    background-image: 
+    url("../image/main_PC_1920x440_20201029105140247.jpg");
+}
+
+.banner>.banner5>a {
+    background-image: 
+    url("../image/main_PC_1920x440_20201030114325133.jpg");
+}
+
+input {
+    display: none;
+}
+
+label {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    margin-left: 200px;
+    transition: 0.5s;
+    text-indent: -9999px;
+}
+
+.c1 {
+    margin-left: 220px;
+}
+
+.c2 {
+    margin-left: 240px;
+}
+
+.c3 {
+    margin-left: 260px;
+}
+
+.c4 {
+    margin-left: 280px;
+}
+
+.c5 {
+    margin-left: 300px;
+}
+
+
+input:checked+label {
+    background-color: #ffff00;
+    transform: scale(1.5);
+}
+
+#btn1:checked ~ .banner{
+    margin-left:0;
+}
+#btn2:checked ~ .banner{
+    margin-left:-100%;
+}
+
+#btn3:checked ~ .banner{
+    margin-left:-200%;
+}
+
+#btn4:checked ~ .banner{
+    margin-left:-300%;
+}
+
+#btn5:checked ~ .banner{
+    margin-left:-400%;
+}

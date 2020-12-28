@@ -1,0 +1,140 @@
+/* 공통 */
+*, h1, h2, h3, h4, h5, p, input, button, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #6f6f6f;
+}
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+/* HAEDER */
+header {
+    border-bottom: 1px solid #eee;
+}
+.center {
+    width: 1170px;
+    margin: 0 auto;
+/*    background-color: antiquewhite;*/
+    position: relative;
+}
+.logo {
+    text-align: center;
+    padding-top: 35px;
+}
+.gnb {
+/*    background-color: white;*/
+    position: absolute;
+    top: 45px;
+    right: 25px;
+}
+.gnb > li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.gnb > li:nth-child(2) {
+    position: relative;
+    padding-left: 5px
+}
+.gnb > li:nth-child(2):before {
+    content: "·";
+    position: absolute;
+    top: 6px;
+    left: -8px;
+    color: grey;
+    font-weight: bolder;
+}
+.gnb > li > a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.gnb .global {
+    background: url(../images/icon_utill_global.png) no-repeat;
+    display: inline-block;
+    width: 30px;
+    text-indent: -9999px;
+}
+
+/*  NAV  */
+nav {
+/*    background-color: tan;*/
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+#nav > li {
+    display: inline-block;
+    width: 165px;
+    text-align: center;
+    position: relative;
+}
+#nav > li > a {
+    display: block;
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+#nav > li:hover > a {
+    color: #009223;
+}
+
+/* SUB */
+.sub {
+    display: none;
+    position: absolute;
+/*    background-color: bisque;*/
+    width: 100%;
+    padding-top: 25px;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.bg {
+    display: none;
+    position: absolute;
+/*    background: olive;*/
+    height: 260px;
+    width: 100%;
+    top: px;
+}
+nav:hover .sub,
+nav:hover .bg {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

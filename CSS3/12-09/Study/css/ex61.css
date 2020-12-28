@@ -1,0 +1,33 @@
+body {
+    background: #333;
+}
+
+.button {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5) inset 1px 1px 1px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#daeaef+14,05abe0+100 */
+    background: rgb(218,234,239); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(218,234,239,1) 14%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(218,234,239,1) 14%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(218,234,239,1) 14%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daeaef', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.button strong {
+    display: block;
+    text-transform: uppercase;
+    color: #0a6680;
+    padding-top: 10px;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.button span {
+    font-family: cursive;
+    font-style: initial;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,12 @@
+#hobby:checked + label{
+    font-size:50px;
+    color:green;
+}
+
+input[type="radio"]:checked + label{
+    background:pink;
+}
+
+input[type="text"]:focus{
+    background-color: mediumslateblue;
+}

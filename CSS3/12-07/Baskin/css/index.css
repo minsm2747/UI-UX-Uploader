@@ -1,0 +1,171 @@
+header{
+    background: url("../images/bg_header.gif");
+}
+.headtop{
+    border-top: 4px solid #ff7c98;
+}
+
+
+/*
+.headtop .center{
+    position: relative;
+}
+*/
+
+.clear_fix:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+.center{
+    width: 1200px;
+/*    background-color: aqua;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.headtop .logo{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.headtop .sns{
+    position: absolute;
+    top: 50px;
+    width: 225px;
+    height: 35px;
+}
+
+.headtop .sns>li{
+    float: left;
+}
+
+.headtop .sns>li>a{
+    margin-right: 10px;
+}
+
+.headtop .gnb{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.headtop .gnb>li{
+    float: left;
+}
+
+.headtop .gnb>li>a{
+    margin-left: 20px;
+}
+
+/* headbottom*/
+
+.headbottom{
+    background-color: white;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    height: 50px;
+}
+
+.headbottom .center{
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+.member{
+   float: left;
+}
+
+.member>li{
+    float: left;
+    margin-right: 50px;
+    line-height: 50px;
+}
+
+.member>li>a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #6c6c6c;
+}
+
+.member>li:first-child a{
+    color: #ff7c98;
+}
+
+.nav{
+    float: right;
+    
+}
+
+.nav> li{
+    float: left;
+    padding: 0 30px 0;
+    width: 150px;
+    line-height: 50px;
+    
+}
+
+.nav>li:first-child{
+    padding-right: 100px;
+}
+
+.nav>li:last-child{
+    width:50px;
+}
+
+.nav> li>a{
+    display: block;
+    width: 200px;
+}
+
+.nav>li:hover .sub{
+    display: block;
+}
+
+.nav> li >a{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #311b14;
+}
+
+.nav:hover .sub{
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+
+.headbottom:hover:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 300px;
+    
+    background: white;
+    position: absolute;
+    border-top: 1px solid #ddd;
+    top: 50px;
+    
+
+}
+
+
+.sub{
+    display: none;
+    width: 100%;
+    height: 280px;
+    position: absolute;    
+/*    background-color: aquamarine;*/
+    position: relative;
+    padding-top: 20px;
+    font-size: 14px;
+    
+}
+
+/* .sub>li:first-child:before{
+    
+} */

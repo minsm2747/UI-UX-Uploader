@@ -1,0 +1,28 @@
+/*.bg1 배경색*/
+.bg1{
+    background-color:#ccc;
+}
+/*. bg2 배경그림 작은 */
+.bg2{
+    background-image:url(../images/logo.gif);
+}
+/*.bg3 배경그림 큰그림*/
+.bg3{
+    background-image: url(../images/mainBanner_202011050606028120.jpg);
+}
+/*body 배경그림 반복, 위치, 고정*/
+body{
+/*
+    background-color:beige;
+    background-image:url(../images/mallProdut_202010270403272190.png);
+    background-repeat:no-repeat;
+    background-position:center 500px;
+    background-attachment:fixed;
+*/
+    background:beige url(../images/mallProdut_202010270409107730.png) no-repeat center 500px fixed;
+}
+
+
+
+
+

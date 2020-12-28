@@ -1,0 +1,53 @@
+.wrap {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 200px;
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: rotate3d(1,1,0,0deg);
+    transition: 2s;
+}
+
+.wrap>div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.box1 {
+    background-color: darkturquoise;
+    transform: translate3d(0,0,100px);
+}
+
+.box2 {
+    background: rgba(119, 19, 77, 0.5);
+    transform: rotateY(-90deg) translate3d(0,0,100px);
+}
+
+.box3 {
+    background: rgba(40, 158, 4, 0.5);
+    transform: rotateX(-90deg) translate3d(0,0,100px);
+}
+
+.box4 {
+    background: rgba(113, 63, 0, 0.5);
+    transform:rotateX(90deg) translate3d(0,0,100px);
+}
+
+.box5 {
+    background: rgba(255, 88, 0, 0.5);
+    transform:rotateY(90deg) translate3d(0,0,100px);
+}
+
+.box6 {
+    background: rgba(0, 9, 134, 0.5);
+    transform:rotateY(180deg) translate3d(0,0,100px);
+}
+
+.wrap:hover {
+    transform: rotate3d(1,1,0,270deg);
+}

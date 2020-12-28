@@ -1,0 +1,66 @@
+/* h2 제목 중앙 정렬 및 글자 색상 변경 */
+h2 {
+    color: cadetblue;
+    text-align: center;
+}
+
+/* h3 글씨체를 궁서체로 변경 */
+h3 {
+    font-family: "궁서체", serif;
+}
+
+.right {
+    text-align: right;
+    font-size: 12px;
+}
+
+/* bigText : 크기는 28px, 문자 색상은 짙은 회색으로 변경 그리고 그 안에 잇는 span는 초록색으로 변경 */
+.bigText {
+    font-size: 28px;
+    color: #222;
+}
+
+/* bigText안에 있는 span내에 있는 문자 색을 초록색으로 변경하여 적용 */
+.text1 {
+    font-size: 15px;
+}
+
+.text1>span {
+    color: green;
+}
+
+/* text2 줄간격 2배로 늘리기  */
+.text2 {
+    color: #999;
+    line-height: 25px;
+}
+
+/* text2 a 밑줄 제거 및 문자 색상변경 */
+.text2 {
+    color: blue;
+    text-decoration: none;
+}
+
+/* text2 들여쓰기 적용 */
+.text2 {
+    color: deepskyblue;
+    text-indent: 50px; /* 들여쓰기 50px로 적용 */
+    text-align: justify; /* 문자 정렬을 양쪽 정렬로 적용 */
+}
+
+/* b 영문자를 대문자로 변경 후 기울기 적용 */
+b {
+    background-color: lightyellow;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+/* .text>a 문자를 굶게 적용 */
+.text4>a {
+    font-weight: bold;
+}
+
+/* .text4 기울기 적용 */
+.text4 {
+    font-style: italic;
+}

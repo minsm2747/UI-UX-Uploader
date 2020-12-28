@@ -1,0 +1,17 @@
+.boxWrap>li {
+    width: 100px;
+    height: 100px;
+    background-color: #87ceed;
+    margin: 10px;
+    float: left;
+    list-style: none;
+    transition: 1s;
+}
+
+#box1:target,
+#box2:target,
+#box3:target {
+    width: 200px;
+    height: 200px;
+    background-color: #ff1493;
+}

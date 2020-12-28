@@ -1,0 +1,49 @@
+div {
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    background-image: url(../img/mainBanner_202011050606028120.jpg);
+    background-repeat: no-repeat;
+}
+
+p {
+    width: 200px;
+    height: 400px;
+    background-color: azure;
+    margin-bottom: 10px;
+    background-image: url(../img/mainBanner_202011050606028120.jpg);
+}
+
+.box1 {
+    background-size: 100%;
+}
+
+.box2 {
+    background-size: 100% 100%;
+}
+
+.box3 {
+    background-size: contain;
+}
+
+.box4 {
+    background-size: cover;
+    background-position: center;
+}
+
+.bg1 {
+    background-size: 100%;
+}
+
+.bg2 {
+    background-size: 100% 100%;
+}
+
+.bg3 {
+    background-size: contain;
+}
+
+.bg4 {
+    background-size: cover;
+}

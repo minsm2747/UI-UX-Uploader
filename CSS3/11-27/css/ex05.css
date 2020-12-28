@@ -1,0 +1,22 @@
+/* ul:list */
+.list>li {
+    /* li태그 내의 마커 아이콘 변경 */
+        /* list-style-type: circle; */
+        /* list-style-type: disc; */
+        list-style-type: square;
+    
+    /* li 위치 조정 */
+        list-style-position: inside;
+        /* list-style-position: outside; (기본 값) */
+}
+
+ol>li {
+    /* list-style-type: armenian; */
+    /* list-style-type: decimal-leading-zero;(0n 방식) */
+    /* list-style-type: lower-alpha; 순서 표시를 알파벳으로 변경 */
+    list-style-type: upper-roman; /* 순서 표시를 로마자로 변경 */
+}
+
+.banner>li {
+    list-style: none;
+}

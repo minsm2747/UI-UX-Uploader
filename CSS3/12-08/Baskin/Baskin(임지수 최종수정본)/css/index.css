@@ -1,0 +1,528 @@
+.center {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* header part */
+
+/* headerTop */
+#header {
+    border-top: 3px solid #ff7c98;
+    border-bottom: 1px solid black;
+    background: url("../image/bg_header.gif");
+}
+
+#header .headTop {
+    border-bottom: 1px solid #ccc;
+}
+
+#header .headTop .logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header .headTop .left_smallmenus {
+    position: absolute;
+    top: 50px
+}
+
+#header .headTop .left_smallmenus > li {
+    float: left;
+    margin-right: 8px;
+
+
+}
+
+#header .headTop .left_smallmenus > li > a {
+    display: block;
+}
+
+#header .headTop .right_smallmenus {
+    position: absolute;
+    line-height: 54px;
+    right: 0;
+    top: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: black;
+
+}
+
+#header .headTop .right_smallmenus > li {
+    float: left;
+    margin-left: 15px;
+}
+
+
+/* headBottom */
+.headBottom {
+    position: relative;
+    background-color: white;
+    z-index: 1000;
+}
+
+.headBottom .loginMenu {
+    float: left;
+    line-height: 55px;
+}
+
+.headBottom .loginMenu > li {
+    float: left;
+    margin-right: 45px;
+
+}
+
+.headBottom .loginMenu > li > a {
+    text-indent: -9999px;
+    display: block;
+    width: 35px;
+    background-image: url("../baskinrobbins/gnb_menu.png");
+    background-repeat: no-repeat;
+}
+
+.login > a {
+    background-position: 0px -1px;
+}
+
+.join > a {
+    background-position: -97px -1px;
+}
+
+
+/* nav */
+.headBottom #nav {
+    float: right;
+}
+
+
+.headBottom #nav > li {
+    float: left;
+}
+
+
+.headBottom #nav > li > a {
+    display: block;
+    line-height: 55px;
+    margin: 0 40px;
+    width: 100%;
+    height: 50px;
+    color: #000000;
+    background-image: url("../baskinrobbins/gnb_menu.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.headBottom #nav > li:nth-child(1) > a {
+    background-position: -133px -3px;
+}
+
+.headBottom #nav > li:nth-child(2) > a {
+    background-position: -410px -3px;
+}
+
+.headBottom #nav > li:nth-child(3) > a {
+    background-position: -535px -3px;
+}
+
+.headBottom #nav > li:nth-child(4) > a {
+    background-position: -737px -3px;
+}
+
+.headBottom #nav > li:nth-child(5) > a {
+    background-position: -897px -3px;
+}
+
+.headBottom #nav > li:nth-child(6) > a {
+    background-position: -1057px -3px;
+}
+
+
+.headBottom::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-top: 1px solid #483325;
+    position: absolute;
+    top: 55px;
+
+}
+
+.headBottom:hover::before {
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: #ffffff;
+    border-top: 1px solid #000000;
+    position: absolute;
+    top: 55px;
+    left:0;
+}
+
+.sub li > a {
+    display: block;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.sub li > a:hover {
+    color: #ff7c98;
+}
+
+
+.happypoint > a{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 130px;
+    width: 195px;
+    height: 139px;
+    background: url("../image/img_happypoint_app.jpg") 
+        no-repeat;
+}
+
+#nav .sub {
+    display: none;
+    position: absolute;
+}
+
+.headBottom:hover #nav > li > .sub {
+    display: block;
+}
+
+.headBottom:hover .happypoint>a {
+    display: block;
+}
+
+/* container */
+#container {
+    min-width: 1200px;
+    
+}
+
+.top_banners > a {
+    display: block;
+    height: 150px;
+    background: #006136;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../image/1578794692.jpg");
+}
+
+.main_banners {
+    width: 100%;
+    height: 697px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main_banners > .m_banners {
+    width: 500%;
+    height: 697px;
+}
+
+.main_banners > .m_banners > li {
+    width: 20%;
+    height: 697px;
+    float: left;
+}
+
+.main_banners > .m_banners > li > a {
+    display: block;
+    width: 100%;
+    height: 697px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main_banners > .m_banners > .banner1 > a {
+    background-image: url("../image/1602393245.png");
+    
+}
+
+
+.main_banners > .m_banners > .banner2 > a {
+    background-image: url("../image/1602393245.png");
+}
+
+.main_banners > .m_banners > .banner3 > a {
+    background-image: url("../image/1623374393.png");
+}
+
+.main_banners > .m_banners > .banner4 > a {
+    background-image: url("../image/1625978632.png");
+}
+
+.main_banners > .m_banners > .banner5 > a {
+    background-image: url("../image/1626057436.png");
+}
+
+.main_banners > .circleBtn {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.main_banners > .circleBtn > li {
+    float: left;
+    padding: 0 10px;
+}
+
+.main_banners > .circleBtn > li.active {
+    padding: 0 10px;
+}
+
+.main_banners > .circleBtn > li > a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+
+.main_banners > .circleBtn > li.active > a {
+    width: 16px;
+    height: 16px;
+    background: #000000;
+
+}
+
+.leftarrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 2%;
+    width: 109px;
+    height: 109px;
+    background : url("../image/btn_banner_prev.png");
+}
+
+.rightarrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+        width: 109px;
+    height: 109px;
+    right: 2%;
+    background : url("../image/btn_banner_next.png");
+}
+
+/* events */
+.BR_EVENT {
+    position: relative;
+/*    여기*/
+    padding-bottom:100px;
+}
+
+.BR_EVENT > .eventlogo {
+padding: 50px 0;
+    text-align: center;
+}
+
+.BR_EVENT > .events {
+    height: 440px;
+    overflow: hidden;
+    
+}
+
+.BR_EVENT > .events img {
+    margin-bottom: 10px;
+}
+
+.BR_EVENT > .events > li {
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.BR_EVENT > .events  p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+
+
+.BR_EVENT > .events  span {
+    display: block;
+    font-size: 14px;
+    margin: 11px 0;
+    font-weight: 300;
+    color: #948780;
+    margin: 10px 0;
+}
+
+
+
+.BR_EVENT > .eventDot {
+    position: absolute;
+    left: 45%;
+     padding-bottom: 80px;
+    
+}
+
+.BR_EVENT > .eventDot > a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+
+.BR_EVENT .eventDot a {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 10px;
+}
+
+.BR_EVENT .eventDot a:hover,
+.BR_EVENT .eventDot .selects_dots {
+    background-color: #301d17;
+}
+
+
+.brMenuLogo {
+    text-align: center;    
+    margin-bottom: 40px;
+}
+
+.baromenu {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ .storelogo {
+    text-align: center;
+}
+
+.storehappyorderLogo {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.storehappyorderLogo> .storeLogoImgs > li {
+    display: inline-block;
+    margin : 0 220px;
+    padding-left: 20px
+}
+
+.storehappyorderLogo> .storeLogoImgs > li:first-child {
+    margin : 0 220px;
+    padding-left: 80px
+}
+
+
+.storeImages {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.storeImages > li {
+    display: inline-block;
+}
+
+
+.snsLogo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.SNS_ICONS > .snsLogoIcons {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.SNS_ICONS > .snsLogoIcons > li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+.INSTAGRAMLOGO {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.INSTAGRAM_IMGS {
+    text-align: center;    
+}
+
+.INSTAGRAM_IMGS .instaImg {
+/*    width: 1390px;*/
+    height: 476px;
+    margin-bottom: 50px;
+}
+
+.INSTAGRAM_IMGS > .instaImg a{
+    display: inline-block;
+    width: 235px;
+    height: 235px;
+}
+
+.INSTAGRAM_IMGS > .instaImg img{
+   width: 100%;
+}
+/* footer Part */
+#footer {
+    border-top: 3px solid orange;
+    
+}
+
+.footerTop {
+    text-align: center;
+}
+
+.footerTop > li {
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+.footerTop > li:nth-child(5) > a {
+    color: #ff7c98;
+}
+
+.footerMenus {
+    background-color: floralwhite;
+
+}
+
+.footerMenu {
+    text-align: center;
+}
+
+.footerMenu > li{
+    float: left;
+    margin: 10px 50px;
+    
+}
+
+
+
+.footerAddress{
+    text-align: center;
+}
+.footerLogo {
+   
+    margin: 50px 0;
+}
+
+address > p {
+    margin: 10px 0;
+}
+
+
+address > .copyright {
+    font-size: 2px;
+}

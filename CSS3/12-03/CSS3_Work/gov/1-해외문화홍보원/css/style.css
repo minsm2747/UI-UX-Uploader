@@ -1,0 +1,430 @@
+.center {
+    max-width: 1400px;
+    min-width: 767px;
+    margin: 0 auto;
+    background-color: rgba(250, 235, 215, 0.5);
+}
+
+/*header*/
+header {
+    position: relative;
+    z-index: 1000;
+}
+
+.headTop {
+    border: 1px solid #e4e4e4;
+    padding: 10px 0;
+}
+
+/*나중에 공통으로 뺄것들*/
+.headTop > .center {
+    position: relative;
+}
+
+.clearFix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*여기까지 공통으로......*/
+
+.gnb {
+    float: right;
+    margin-right: 126px;
+}
+
+.gnb > li {
+    float: left;
+    padding: 0 10px;
+    position: relative;
+}
+
+.gnb > li:first-child:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background: #c0c0c0;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+
+.gnb > li > a {
+    color: #737373;
+    text-transform: uppercase;
+}
+
+.sns {
+    position: absolute;
+    right: 0;
+    /*    background-color:dodgerblue;*/
+}
+
+.sns > li {
+    float: left;
+    margin-left: 20px;
+}
+
+.sns > li > a {
+    display: block;
+    width: 16px;
+    height: 20px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+}
+
+.sns > .sns1 > a {
+    background-image: url(../images/facebook.png);
+}
+
+.sns > .sns1 > a:hover {
+    background-image: url(../images/facebook_over.png);
+}
+
+.sns > .sns2 > a {
+    background-image: url(../images/instagram.png);
+}
+
+.sns > .sns2 > a:hover {
+    background-image: url(../images/instagram_over.png);
+}
+
+.sns > .sns3 > a {
+    background-image: url(../images/naverpost.png);
+}
+
+.sns > .sns3 > a:hover {
+    background-image: url(../images/naverpost_over.png);
+}
+
+
+/* headBottom */
+.headBottom {
+    padding: 14px 0;
+}
+
+.logo {
+    float: left;
+    margin-right: 80px;
+}
+
+#nav {
+    float: left;
+}
+
+#nav > li {
+    float: left;
+}
+
+#nav > li > a {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 30px 12px;
+    position: relative;
+}
+
+#nav > li > a:after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 10px;
+    background: rgba(0, 138, 255, 0.3);
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+#nav > li:hover > a:after {
+    width: 80%;
+}
+
+.topMenu {
+    float: right;
+}
+
+.topMenu > li {
+    float: left;
+    margin-left: 30px;
+}
+
+.topMenu > li span {
+    display: block;
+    margin-top: 5px;
+    color: #6c6c6c;
+    font-weight: 100;
+}
+
+.subWrap {
+    display: none;
+    position: absolute;
+    width: 100%;
+    line-height: 50px;
+    background: #006ecd;
+    left: 0;
+}
+
+.sub {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.sub > li {
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+
+.sub > li:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+
+.sub > li:last-child:after {
+    display: none;
+}
+
+.sub > li > a {
+    color: white;
+    font-size: 16px;
+}
+
+.sub > li > a:hover {
+    color: #fff600;
+}
+
+.sub1 > li:first-child {
+    margin-left: 250px;
+}
+
+.sub2 > li:first-child {
+    margin-left: 380px;
+}
+
+.sub3 > li:first-child {
+    margin-left: 300px;
+}
+
+.sub4 > li:first-child {
+    margin-left: 600px;
+}
+
+.sub5 > li:first-child {
+    margin-left: 420px;
+}
+
+.sub6 > li:first-child {
+    margin-left: 650px;
+}
+
+#nav > li:hover .subWrap {
+    display: block;
+}
+
+
+
+/*#container*/
+
+#visual {
+    height: 439px;
+    background: url(../images/main_visualbg.png) center center;
+    position: relative;
+}
+
+#visual:before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 110, 205, 0.8);
+    position: absolute;
+    left: 50%;
+}
+
+
+
+#visual > div > div {
+    width: 50%;
+    float: left;
+}
+
+#visual .visualLeft > ul {
+    border: 1px solid white;
+    padding: 20px;
+    height: 350px;
+    width: 550px;
+    margin: 25px 0 0 25px;
+}
+
+#visual .visualLeft > ul > li {
+    position: absolute;
+}
+
+/*visualRight*/
+#visual .visualRight .textBox {
+    height: 200px;
+    margin: 50px 30px 10px;
+}
+
+#visual .visualRight .textBox:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+
+#visual .visualRight .textBox > div {
+    position: absolute;
+    font-size: 2.6em;
+    font-weight: 700;
+    color: white;
+    width: 592px;
+}
+
+#visual .visualRight .textBox > .text1 {
+    display: none;
+}
+
+#visual .visualRight .more {
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+
+#visual .visualRight .more a {
+    display: block;
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.3em;
+}
+
+#visual .visualRight .controlWrap {
+    float: right;
+    position: relative;
+}
+
+#visual .visualRight .controlWrap .photo {}
+
+#visual .visualRight .controlWrap .photo > li {
+    float: left;
+    margin: 0 10px 20px;
+}
+
+#visual .visualRight img {
+    width: 98px;
+}
+
+#visual .visualRight .controlWrap .btn {}
+
+#visual .visualRight .controlWrap .btn > li {
+    float: left;
+}
+
+#visual .visualRight .controlWrap .btn > .nextBtn {
+    margin: 0 10px 0 135px;
+}
+
+#visual .visualRight .controlWrap .btn > li > a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-indent: -99999px;
+}
+
+#visual .visualRight .controlWrap .btn > .prevBtn > a {
+    background-image: url(../images/bx_prev.png);
+}
+
+#visual .visualRight .controlWrap .btn > .nextBtn > a {
+    background-image: url(../images/bx_next.png);
+}
+
+#visual .visualRight .controlWrap .btn > .playStop > a {
+    background-image: url(../images/bx_stop.png);
+}
+
+.slideWrap {
+    position: absolute;
+    width: 122px;
+    height: 1px;
+    background: #bbb;
+    bottom: 12px;
+    left: 30px;
+}
+
+.slideWrap > .slide {
+    width: 50%;
+    height: 1px;
+    background: white;
+}
+
+
+
+/*footer*/
+footer{
+    position:relative;
+}
+footer:before{
+    content: "";
+    display: block;
+    width:100%;
+    height:1px;
+    background:#ccc;
+    position:absolute;
+    top:55px;    
+}
+
+.footTop{
+    background-color:azure;
+    height:55px;
+    line-height: 55px;
+}
+.footTop .footMenu{
+    float:left;
+}
+.footTop .footMenu>li{
+    float:left;
+    padding-right:10px;
+    margin-right:10px;
+}
+
+
+
+.footTop .familySite{
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
